@@ -1,0 +1,10 @@
+.city{
+    border:2px solid orange;
+    max-width:800px;
+    max-height: 650px;
+    display:inline-block;
+}
+img{
+    width: 60%;
+    max-height:375px;
+}

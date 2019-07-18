@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+<h1>Dojo Weather Forecast</h1>
+<ul style="display:inline-block;">
+  <li style="display:inline-block; margin:0px 20px;"><a [routerLink]="['/seattle']"  href="/">Seattle,WA</a></li>|
+  <li style="display:inline-block; margin:0px 20px;"><a [routerLink]="['/sanjose']"  href="#">San Jose,CA</a></li>|
+  <li style="display:inline-block; margin:0px 20px;"><a [routerLink]="['/burbank']"  href="#">Burbank,CA</a></li>|
+  <li style="display:inline-block; margin:0px 20px;"><a [routerLink]="['/dallas']"  href="#">Dallas,TX</a></li>|
+  <li style="display:inline-block; margin:0px 20px;"><a  [routerLink]="['/washington']" href="#">Washington,DC</a></li>|
+  <li style="display:inline-block; margin:0px 20px;"><a [routerLink]="['/chicago']" href="/">Chicago,IL</a></li>
+</ul>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
